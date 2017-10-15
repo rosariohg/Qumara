@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvCalendario"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvCalendarioFecha"
+            android:text="15/11"
+            android:paddingLeft="4dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:textColor="#33a"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:id="@+id/cvCalendarioEvento"
+            android:text="Cita: Revision de anemia"
+            android:gravity="center"
+            android:textColor="#333"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="17dp">
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
